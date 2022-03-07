@@ -18,7 +18,7 @@
                 <nav class="menu">
                     <ul>
                         <li>
-                            <a href="#descricao">Sobre Mim</a>
+                            <a href="#sobre-mim">Sobre Mim</a>
                         </li>
                         <li>
                             <a href="#skills">Skills</a>
@@ -54,7 +54,7 @@
                     </ul>
                 </nav>
             </section>
-            <article class="descricao" id="descricao">
+            <article class="sobre-mim" id="sobre-mim">
                 <h2>Sobre Mim</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.
                     <br> <br>
@@ -108,19 +108,22 @@
             <section class="formacao" id="formacao">
                 <h2>Formação acadêmica</h2>
                 <div class="formacoes">
-                    <ul>
-                        <li>
-                            <img src="Imagens/Logo-uniavan-edit.jpg" alt="Logo Alura" class="logo-uniavan">
-                            <p class="curso-uniavan">Análise e Desenvolvimento de Sistemas</p>
-                            <p class="situacao-uniavan">Em andamento - Uniavan</p>
-                        </li>
-                        <li>
-                            <img src="Imagens/Logo-alura.png" alt="Logo Alura" class="logo-alura">
-                            <p class="curso-alura">Formação Oracle Next Education</p>
-                            <p class="situacao-alura">Em andamento - Alura</p>
-                        </li>
-                    </ul>
-                </div>
+                    <div>
+                        <div class="bloco-formacoes">
+                            <img class="logo-uniavan" src="Imagens/Logo-uniavan-edit.jpg" alt="Logo Alura" >
+                        </div>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p>Em andamento - Uniavan</p>
+                    </div>
+                    <div>
+                        <div class="bloco-formacoes">
+                            <img class="logo-alura" src="Imagens/Logo-alura.png" alt="Logo Alura" >
+                        </div>
+                        <h3>Formação Oracle Next Education</h3>
+                        <p class="situacao-alura">Em andamento - Alura</p>
+                    </div>
+
+                         </div>
             </section>
             <section class="experiencia">
                 <h2>Experiência profissional.</h2>
@@ -133,13 +136,13 @@
                            <legend>Quer entrar em contato comigo? <br>
                                Preencha o formulário abaixo que entrarei em contato o mais rápido possível.</legend>
                            <label for="nome">
-                               <input type="text" name="nome" ID="nome" placeholder="Nome">
+                               <input type="text" name="nome" ID="nome">
                            </label>
                            <label for="email">
-                               <input type="text" name="email" id="email" placeholder="E-mail">
+                               <input type="text" name="email" id="email">
                            </label>
                            <label for="assunto">
-                               <input type="email" name="assunto" id="assunto" placeholder="assunto">
+                               <input type="email" name="assunto" id="assunto">
                            </label>
                            <label for="mensagem">
                                <textarea type="text" cols="80" rows="7" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>

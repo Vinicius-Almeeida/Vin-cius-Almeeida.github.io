@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+}
+
+header {
+    background-color: #F5F5F5;
+    padding: 20px 0;
+}
+.cabecalho {
+    position: relative;
+}
+.cabecalho img {
+    display: inline-block;
+    margin:auto auto auto 8%;
+}
+.cabecalho p {
+    display: inline-block;
+    position: absolute;
+    margin: 0.3% auto auto 1%;
+    font-weight: bold;
+}
+.menu {
+    position: absolute;
+    margin: -1.3% auto auto 42%;
+
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 17px;
+}
+
+.gmail {
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+main {}
+.apresentacao {
+    background-color: #F5F5F5;
+    height: 468px;
+    padding: 30px 10px;
+}
+.apresentacao img {
+    width: 28%;
+    border-radius: 90%;
+    display: block;
+    float: right;
+    margin: 1% 10% 0 0;
+}
+.apresentacao h1 {
+    display: block;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 5% 0 2% 8%;
+    width: 55%;
+}
+.apresentacao p {
+    font-size: 22px;
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 0 2% 8%;
+    width: 53%;
+}
+.links-sociais {
+    width: 40%;
+    margin: 0 0 0 8%;
+}
+
+.links-sociais li {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.links-sociais a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.links-sociais li::after {
+    content: url(../Imagens/seta-link2.png);
+    position: absolute;
+    margin-left: 0.2px;
+    margin-top: -5px;
+
+}
+
+.descricao {
+    background-color: #D4E4FA;
+    height: 343px;
+    padding-top: 70px;
+}
+
+.descricao h2 {
+    display: block;
+    margin: 0 0 0 8%;
+    font-size: 32px;
+}
+.descricao p {
+    display: block;
+    width: 60%;
+    margin: 2% 0 0 8%;
+}
+
+.container-skills-hobbies {
+    background-color: #F5F5F5;
+    padding-bottom: 4%;
+}
+.skills {
+    display: block;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    padding-top: 3rem;
+
+}
+.skills p {
+    position: absolute;
+    margin: 85% auto 1% 5%;
+    font-weight: bold;
+}
+.skills li {
+    width: 174px;
+    height: 176px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 5% auto;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.76);
+    position: relative;
+
+}
+.skills img {
+    position: absolute;
+    margin: 62% auto 1% 5%;
+}
+.hobbies {
+    display: block;
+}
+.hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.hobbies h2 {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    padding-top: 3rem;
+}
+.hobbies p {
+    position: absolute;
+    margin: 85% auto 1% 5%;
+    font-weight: bold;
+}
+.hobbies li {
+    width: 174px;
+    height: 176px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 5% auto;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.76);
+    position: relative;
+}
+.hobbies img {
+    position: absolute;
+    margin: 62% auto 1% 5%;
+}
+
+.formacao {
+    background-color: #D4E4FA;
+}
+.formacao h2 {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    padding-top: 3rem;
+}
+.formacoes {
+    display: block;
+}
+.formacoes ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.formacoes li {
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 8% auto 25% auto;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.76);
+    position: relative;
+    width: 368px;
+    height: 268px;
+}
+
+.logo-uniavan{
+    width: 80%;
+    margin: 18% 10% 0 9%;
+}
+.logo-alura {
+    width: 60%;
+    margin: 12% 10% 0 20%;;
+}
+.curso-uniavan {
+    margin: 28% 0 0 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+
+}
+.situacao-uniavan {
+    margin: 2% 0 0 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    padding-bottom: 2%;
+}
+.curso-alura {
+    margin: 23% 0 0 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+.situacao-alura {
+    margin: 2% 0 0 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+}
+
+.experiencia {
+    display: none;
+}
+.experiencia h2 {}
+
+.formulario {
+    display: flex;
+    margin: 10% auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formulario img {
+    max-width: 464px;
+    max-height: 594px;
+}
+form {
+
+    display: block;
+    padding: 5px 10px 0 10px;
+    margin: 17px 0 0 0;
+}
+form h3 {
+    margin: 0 0 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+
+}
+form legend {
+    margin: 0 0 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+
+}
+form label {
+    display: block;
+    margin: 0 0 10px;
+
+}
+form input {
+    display: block;
+    margin: 0 0 30px;
+    padding: 5px 20px;
+    width: 100%;
+    height: 56px;
+}
+
+form textarea {
+    padding: 5px 20px;
+    margin: 0 0 18px;
+}
+
+#botao {
+    width: 80%;
+    background: #2A7AE4;
+    border-radius: 3%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #D4E4FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0 25px;
+}
+footer p {}

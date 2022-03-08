@@ -1,7 +1,7 @@
 
-/* Responsividade padrão tablet */
+/* Responsividade padrão Mobile */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 450px) {
     body, main, .cabecalho, .sobre-mim,
     .container-skills-hobbies, .formacao,
     .experiencia, .formulario, footer {
@@ -12,26 +12,32 @@
         display: inline-block;
         position: absolute;
         margin: 0.3% auto auto 4%;
-        font-weight: bold;
+        font-weight: 700;
+        font-size: 0.6em;
+        font-style: normal;
+        line-height: 19px;
+        text-align: left;
+
     }
 
     .cabecalho p:before {
         display: inline-block;
-        content: url("../Imagens/Logo.png");
+        content: url("../Imagens/Logo16x16.png");
         margin-right: 1em;
+        width: 16px;
+        height: 16px;
     }
 
     .cabecalho li:not(#lista-menu5) {
         display: none;
-        position: absolute;
-        float: right;
     }
 
     .menu {
         display: block;
         position: absolute;
         float: right;
-        margin: 1.6% auto 1% 65%;
+        margin: 1.6% auto 1% 57%;
+        font-size: 0.6em;
     }
 
     /* Seção Apresentação */

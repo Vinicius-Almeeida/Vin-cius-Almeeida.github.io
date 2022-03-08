@@ -15,43 +15,47 @@ body {
 /* Header */
 header {
     background-color: #F5F5F5;
-    padding: 20px 0;
-}
-.cabecalho {
-    position: relative;
-}
-
-.cabecalho p {
-    display: inline-block;
-    position: absolute;
-    margin: 0.3em auto auto 7em;
-    font-weight: bold;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.cabecalho p:before {
+#btn-mobile {
+    display: none;
+}
+
+header p {
+  /*  display: inline-block;
+    position: absolute;*/
+    margin: 0.1rem auto auto 6.5em;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+header p:before {
     display: inline-block;
     content: url("../Imagens/Logo.png");
-    margin-right: 1em;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
 }
 
-.menu {
-    position: absolute;
-    margin: 1em auto 1em 45em;
-
+#menu {
+    display: flex;
+    gap: 1rem;
+    margin: auto 6.5em auto auto;
 }
 
-.menu li {
-    display: inline;
-    margin: 0 0 0 17px;
+#menu a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 0.5rem;
 }
 
 .gmail {
-    font-weight: bold;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #000000;
+    font-weight: 700;
 }
 
 /* Main */

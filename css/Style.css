@@ -288,7 +288,7 @@ main {}
 
 .formulario img {
     max-width: 464px;
-    max-height: 594px;
+    max-height: 604px;
 }
 form {
     display: block;
@@ -311,32 +311,38 @@ form legend {
     font-weight: 500;
     line-height: 19px;
     text-align: left;
-
 }
 
-label {
+input, textarea {
+    border: 1px solid rgb(225, 223, 223);
+    box-shadow: 2px 4px 4px 4px darkgray;
+}
+
+label  {
     display: block;
-    background-color: white;
-    font-size: 12px;
-    padding-top: 15px;
-    color: #000;
+    font-size: 0.8rem;
+    margin-bottom: -1.3rem;
+    margin-left: 0.5rem;
 }
 
-label::before {
-    content: '';
-    margin-left: 20px;
+label:checked {
+    color: rgba(12, 94, 201, 1);
 }
 
-label, textarea {
+input:focus, textarea:focus {
+    border-bottom: 4px solid #0c5ec9;
+}
+
+textarea {
     margin: 15px 0;
 }
 
 form input {
     display: block;
     margin: 0 0 30px;
-    padding: 5px 20px;
+    padding: 9px 15px 2px;
     width: 100%;
-    height: 56px;
+    height: 60px;
 }
 
 form textarea {
@@ -344,13 +350,17 @@ form textarea {
     margin: 0 0 18px;
 }
 
-#botao {
-    width: 80%;
-    background: #2A7AE4;
-    border-radius: 3%;
-    border: none;
+input[type='submit'] {
     color: white;
-    font-weight: bold;
+    background-color: #2A7AE4;
+    width: 60%;
+}
+input, textarea {
+    width: 100%;
+    border-radius: 4px;
+    padding: 15px;
+    border: none;
+    outline: none;
     font-size: 16px;
 }
 
